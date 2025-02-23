@@ -3,16 +3,16 @@ const env = {
   es6: true,
   "jest/globals": true,
 }
-export const ext = ["eslint:recommended", "plugin:react/recommended"]
-export const parserOptions = {
+const ext = ["eslint:recommended", "plugin:react/recommended"]
+const parserOptions = {
   ecmaFeatures: {
     jsx: true,
   },
   ecmaVersion: 2018,
   sourceType: "module",
 }
-export const plugins = ["react", "jest"]
-export const rules = {
+const plugins = ["react", "jest"]
+const rules = {
   indent: ["error", 2],
   // "linebreak-style": ["error", "unix"],
   quotes: ["error", "double"],
