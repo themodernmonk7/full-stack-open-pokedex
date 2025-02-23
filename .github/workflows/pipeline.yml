@@ -3,7 +3,10 @@ run-name: ${{ github.actor }} checking the Deployment pipeline
 on:
   push:
     branches:
-      - learn/ci-cd
+      - main
+    pull_request:
+      branches: [main]
+      types: [opened, synchronize]
 
 jobs:
   simple_deployment_pipeline:
