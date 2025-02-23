@@ -1,5 +1,5 @@
 name: Deployment pipeline
-run-name: ${{ github.actor }} checking the Deployment pipeline 🚀
+run-name: ${{ github.actor }} checking the Deployment pipeline
 on:
   push:
     branches:
